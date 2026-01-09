@@ -105,6 +105,7 @@ export default function Navbar() {
           <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">Sobre mí</a></li>
           <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#services">Servicios</a></li>
           <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#work">Proyectos</a></li>
+          <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#certifications">Certificaciones</a></li>
           <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#contact">Contacto</a></li>
         </ul>
 
@@ -142,6 +143,7 @@ export default function Navbar() {
           <li><a href="#about" onClick={closeMenu} className="hover:text-gray-600 dark:hover:text-gray-300 transition">Sobre mí</a></li>
           <li><a href="#services" onClick={closeMenu} className="hover:text-gray-600 dark:hover:text-gray-300 transition">Servicios</a></li>
           <li><a href="#work" onClick={closeMenu} className="hover:text-gray-600 dark:hover:text-gray-300 transition">Mis proyectos</a></li>
+          <li><a href="#certifications" onClick={closeMenu} className="hover:text-gray-600 dark:hover:text-gray-300 transition">Certificaciones</a></li>
           <li><a href="#contact" onClick={closeMenu} className="hover:text-gray-600 dark:hover:text-gray-300 transition">Contáctame</a></li>
         </ul>
 

@@ -97,6 +97,24 @@ export default function About() {
             ciberseguridad y desarrollo con React, Node.js y Python.
           </p>
 
+          {/* Botón descargar CV */}
+          <a
+            href="./assets/CV_MFCF.pdf"
+            download="CV_Michael_Felipe_Corrales.pdf"
+            className="group relative inline-flex items-center gap-2 px-8 py-4 mb-10 bg-gradient-to-r from-[#2563eb] via-[#1d4ed8] to-[#2563eb] text-white font-bold text-lg rounded-xl hover:shadow-2xl hover:shadow-[#2563eb]/60 transition-all duration-300 transform hover:scale-110 hover:-translate-y-1 animate-pulse hover:animate-none overflow-hidden"
+          >
+            {/* Efecto de brillo animado */}
+            <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000"></span>
+            
+            <svg className="w-6 h-6 group-hover:animate-bounce relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2v16m0 0l-4-4m4 4l4-4M2 20h20" />
+            </svg>
+            <span className="relative z-10">Descargar CV</span>
+            
+            {/* Brillo de fondo */}
+            <span className="absolute inset-0 rounded-xl bg-[#2563eb] blur-xl opacity-50 group-hover:opacity-75 transition-opacity"></span>
+          </a>
+
           {/* Secciones de información mejoradas */}
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mb-10">
             {data.map((item) => (

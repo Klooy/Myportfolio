@@ -46,6 +46,20 @@ export default function Header() {
                 </a>
 
                 <a
+                    href="./assets/CV_MFCF.pdf"
+                    download="CV_Michael_Felipe_Corrales.pdf"
+                    className="group relative px-8 py-3 rounded-full bg-gradient-to-r from-[#2563eb] to-[#1d4ed8] text-white font-bold hover:from-[#1d4ed8] hover:to-[#2563eb] flex items-center gap-2 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-[#2563eb]/50 animate-pulse hover:animate-none overflow-hidden"
+                >
+                    {/* Efecto de brillo */}
+                    <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700"></span>
+                    
+                    <svg className="w-5 h-5 group-hover:animate-bounce relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2v16m0 0l-4-4m4 4l4-4M2 20h20" />
+                    </svg>
+                    <span className="relative z-10">Descargar CV</span>
+                </a>
+
+                <a
                     href="#work"
                     className="group px-8 py-3 rounded-full border-2 border-[#2563eb] text-[#2563eb] dark:text-[#60a5fa] dark:border-[#60a5fa] font-semibold hover:bg-[#2563eb]/10 dark:hover:bg-[#60a5fa]/10 flex items-center gap-2 transition-all duration-300 transform hover:scale-105"
                 >
