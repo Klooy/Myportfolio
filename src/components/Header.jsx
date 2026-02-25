@@ -48,7 +48,7 @@ export default function Header() {
                 {/* Información adicional */}
                 <ScrollReveal animation="slideUp" delay={0.5}>
                     <p className="max-w-2xl mx-auto text-[#1f2937]/80 dark:text-gray-300 text-lg leading-relaxed">
-                        Especializado en soluciones web escalables con C#, ASP.NET, React, Node.js y Python. Creo aplicaciones modernas que transforman ideas en resultados.
+                        Especializado en soluciones web escalables con HTML, CSS, JavaScript, React, React Native, Vite, Tailwind, Node.js, NestJS, Next.js, Python, PostgreSQL y SQL Server. Creo aplicaciones modernas que transforman ideas en resultados.
                     </p>
                 </ScrollReveal>
 
